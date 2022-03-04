@@ -1,12 +1,58 @@
 .container-fluid {
     background-color: aquamarine;
-    border: 5px solid red;
+    border: 2px solid red;
+}
+.container {
+    background-color: aquamarine;
+    border: 2px solid red;
 }
 .row {
-    border: 5px solid yellowgreen;
+    border: 2px solid yellowgreen;
     padding: 5px;
-    padding : 5px;
+    background-color: bisque;
 }
+.col-1{
+    border : 1px solid green;
+    background-color:gray;
+}
+.col-2{
+    border : 1px solid slateblue;
+    background-color:gray;
+}
+.col-3{
+    border : 1px solid  sandybrown;
+    background-color:gray;
+}
+.col-4{
+    border : 1px solid  saddlebrown
+    background-color:gray;
+}
+.col-5{
+    border : 1px solid  rgb(228, 67, 201);
+    background-color:gray;
+}
+
+.col-6{
+    border : 1px solid  rgb(88, 56, 87);
+    background-color:gray;
+}
+
+.row.row-cols-3 {
+    border: 1px px solid green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .col-one{
     border : 5px solid green;
 }
@@ -16,3 +62,5 @@
 .col-three{
     border : 5px solid  sandybrown;
 }
+
+

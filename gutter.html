@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+
+<div class="container py-4">
+    <div class="row gx-5">
+        <div class="col">
+            <div class="p-3 border bg-light">cistom column padding by gutter</div>
+        </div>
+        <div class="col">
+            <div class="p-3 border bg-light">cistom column padding gutter</div>
+        </div>
+    </div>
+</div>
+
+<div class="container overflow-hidden">
+    <div class="row gx-5">
+      <div class="col">
+       <div class="p-3 border bg-light">Custom column padding by overflow hidden</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Custom column padding by overflow hidden</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row g-2">
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-2">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">Row column</div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+
+<!---
+
+How they work Gutter:
+Gutters are the gaps between column content, created by horizontal padding. We set padding-right and padding-left on each column, and use negative margin to offset that at the start and end of each row to align content.
+
+Gutters start at 1.5rem (24px) wide. This allows us to match our grid to the padding and margin spacers scale.
+
+Gutters can be responsively adjusted. Use breakpoint-specific gutter classes to modify horizontal gutters, vertical gutters, and all gutters.
+
+Horizontal gutters:
+.gx-* classes can be used to control the horizontal gutter widths. The .container or .container-fluid parent may need to be adjusted if larger gutters are used 
+too to avoid unwanted overflow, using a matching padding utility. For example, in the following example we’ve increased the padding with .px-4:
+
+
+Vertical gutters
+.gy-* classes can be used to control the vertical gutter widths. Like the horizontal gutters, the vertical gutters can cause some overflow below the .row at the end of a page. If this occurs, you add a wrapper around .row with the .overflow-hidden class:
+
+
+--->
