@@ -1,0 +1,18 @@
+.container-fluid {
+    background-color: aquamarine;
+    border: 5px solid red;
+}
+.row {
+    border: 5px solid yellowgreen;
+    padding: 5px;
+    padding : 5px;
+}
+.col-one{
+    border : 5px solid green;
+}
+.col-two{
+    border : 5px solid slateblue;
+}
+.col-three{
+    border : 5px solid  sandybrown;
+}
