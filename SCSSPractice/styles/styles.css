@@ -1,0 +1,9 @@
+/*browser reset code*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
